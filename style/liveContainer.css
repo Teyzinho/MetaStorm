@@ -1,0 +1,36 @@
+/* ************* Lives ********* */
+
+.livesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.livesBox{
+    border-radius: 15px;
+    width:74.50771687067589vw;
+	height:fit-content;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 8px 1px;
+    padding-bottom: 50px;
+}
+
+.livesBox h1{
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding: 25px 0 25px 15px;
+}
+
+.livesShow{
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+.livesShow img{
+    width: 17.828632251197444vw;
+    height: 14.635444385311336vw;
+    border: 1px solid purple;
+    border-radius: 5px;
+}

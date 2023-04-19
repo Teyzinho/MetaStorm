@@ -1,0 +1,1006 @@
+body {
+    background-image: url(images/bg_branco.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*PAINEL PRINCIPAL*/
+
+.painelPrinc {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/painel1.png);
+    background-repeat: no-repeat;
+}
+
+.navBar {
+    display: flex;
+    height: 20vh;
+    gap: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoNav img {
+    width: 15em;
+}
+
+.navLinks {
+    color: aliceblue;
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.navLinks li {
+    display: inline;
+    padding: 2em;
+    transition: 0.2s;
+
+}
+
+.navLinks li a:hover {
+    color: #F36422;
+}
+
+/*PAINEL PRINCIPAL TAMANHOS*/
+
+@media (max-width: 767px) {
+    .painelPrinc {
+        width: 100%;
+        height: 90vh;
+        background-image: url(images/painel1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .navBar {
+        display: flex;
+        height: 20vh;
+        gap: 4vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoNav img {
+        width: 15em;
+    }
+
+    .navLinks {
+        color: aliceblue;
+        list-style: none;
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .painelPrinc {
+        width: 100%;
+        height: 90vh;
+        background-image: url(images/painel1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .navBar {
+        display: flex;
+        height: 20vh;
+        gap: 15vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoNav img {
+        width: 12em;
+    }
+
+    .navLinks {
+        color: aliceblue;
+        list-style: none;
+        font-size: 0.95em;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .painelPrinc {
+        width: 100%;
+        height: 90vh;
+        background-image: url(images/painel1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .navBar {
+        display: flex;
+        height: 20vh;
+        gap: 40vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoNav img {
+        width: 15em;
+    }
+
+    .navLinks {
+        color: aliceblue;
+        list-style: none;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+}
+
+@media (min-width: 1367px) {
+    .painelPrinc {
+        width: 100%;
+        height: 90vh;
+        background-image: url(images/painel1.png);
+        background-repeat: no-repeat;
+    }
+
+    .navBar {
+        display: flex;
+        height: 15vh;
+        gap: 50vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logoNav img {
+        width: 15em;
+    }
+
+    .navLinks {
+        color: aliceblue;
+        list-style: none;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+}
+
+/*----------------------------------------------------*/
+
+/*TITULO PRINCIPAL*/
+
+.princ {
+    position: absolute;
+    height: 150px;
+    left: 170px;
+    top: 230px;
+}
+
+.tituloPrinc {
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 75px;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+.linha-vertical {
+    position: absolute;
+    width: 440px;
+    top: 170px;
+    border: 2px solid aliceblue;
+}
+
+.textPrinc {
+    position: absolute;
+    top: 200px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+/*TITULO PRINCIPAL TAMANHOS*/
+
+@media (max-width: 767px) {
+    .princ {
+        position: absolute;
+        left: 10vw;
+        top: 20vh;
+    }
+    
+    .tituloPrinc {
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 4em;
+        line-height: 75px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+    
+    .linha-vertical {
+        position: absolute;
+        width: 440px;
+        top: 170px;
+        border: 2px solid aliceblue;
+    }
+    
+    .textPrinc {
+        position: absolute;
+        top: 200px;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .princ {
+        position: absolute;
+        left: 10vw;
+        top: 20vh;
+    }
+    
+    .tituloPrinc {
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 2.8em;
+        line-height: 55px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+    
+    .linha-vertical {
+        position: absolute;
+        width: 315px;
+        top: 22vh;
+        border: 2px solid aliceblue;
+    }
+    
+    .textPrinc {
+        position: absolute;
+        top: 25vh;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 1.4em;
+        line-height: 30px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .princ {
+        position: absolute;
+        left: 10vw;
+        top: 20vh;
+    }
+    
+    .tituloPrinc {
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 3.5em;
+        line-height: 65px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+    
+    .linha-vertical {
+        position: absolute;
+        width: 400px;
+        top: 22vh;
+        border: 2px solid aliceblue;
+    }
+    
+    .textPrinc {
+        position: absolute;
+        top: 25vh;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 1.8em;
+        line-height: 38px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+}
+
+@media (min-width: 1367px) {
+    .princ {
+        position: absolute;
+        left: 10vw;
+        top: 25vh;
+    }
+    
+    .tituloPrinc {
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 4em;
+        line-height: 75px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+    
+    .linha-vertical {
+        position: absolute;
+        width: 400px;
+        top: 17vh;
+        border: 2px solid aliceblue;
+    }
+    
+    .textPrinc {
+        position: absolute;
+        top: 20vh;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        font-size: 1.8em;
+        line-height: 38px;
+        letter-spacing: 1px;
+        color: aliceblue;
+    }
+}
+
+/*----------------------------------------------------*/
+
+/*BOTÃO PRINCIPAL*/
+
+.buttonPrinc {
+    margin-top: 225px;
+    height: 200px;
+    width: 200px;
+}
+
+.container-btn {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 90px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #F36422;
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #F36422;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: #F36422;
+}
+
+.btn span {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*BOTÃO PRINCIPAL TAMANHOS*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .buttonPrinc {
+        margin-top: 33vh;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/*----------------------------------------------------*/
+
+/*PAINEL 1*/
+
+.painel1 {
+    height: 350px;
+    display: flex;
+}
+
+.text1 {
+    position: absolute;
+    left: 100px;
+    top: 1000px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1B1D21;
+}
+
+/*PAINEL 1 TAMANHOS*/
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .painel1 {
+        height: 350px;
+        display: flex;
+    }
+    
+    .text1 {
+        position: absolute;
+        left: 4vw;
+        top: 100vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.5em;
+        line-height: 45px;
+        color: #1B1D21;
+    }  
+}
+
+@media (min-width: 1367px) {
+    .painel1 {
+        height: 350px;
+        display: flex;
+    }
+    
+    .text1 {
+        position: absolute;
+        left: 5vw;
+        top: 100vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.15em;
+        line-height: 50px;
+        color: #1B1D21;
+    }  
+}
+
+/*----------------------------------------------------*/
+
+/*CARROSSEL INFINITO*/
+
+.carrossel {
+    position: absolute;
+    width: 50vw;
+    left: 850px;
+    margin: 100px 0px 0px 0px;
+    overflow: hidden;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    animation: circulate 10s linear infinite;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: lightgrey;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: Courier;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+@keyframes circulate {
+    from {
+        transform: translateX();
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/*CARROSSEL INFINITO TAMANHOS*/
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .carrossel {
+        position: absolute;
+        width: 48vw;
+        left: 46vw;
+        margin: 50px 0px 0px 0px;
+        overflow: hidden;
+        display: flex;
+    }
+
+}
+
+@media (min-width: 1367px) {
+    .carrossel {
+        position: absolute;
+        width: 50vw;
+        left: 44vw;
+        margin: 75px 0px 0px 0px;
+        overflow: hidden;
+        display: flex;
+    }
+
+}
+
+/*----------------------------------------------------*/
+
+/*PAINEL 2*/
+
+.painel2 {
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+}
+
+.barraSuperior {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    left: 1101px;
+    top: 50px;
+    background: #F05024;
+    border-radius: 50px;
+}
+
+.text2 {
+    position: absolute;
+    left: 585px;
+    top: 85px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #1B1D21;
+}
+
+.pn2Img1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 100px;
+    top: 200px;
+    background: url(images/Jogando-Videoame.jpg);
+    background-size: 356px;
+    background-repeat: no-repeat;
+    border: 3px solid #000000;
+    border-radius: 25px;
+}
+
+.pn2Img1,
+.pn2Img2,
+.pn2Img3,
+.pn2Img4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 100px;
+    top: 200px;
+    background: url(images/Jogando-Videoame.jpg);
+    background-size: 356px;
+    background-repeat: no-repeat;
+    border: 3px solid #000000;
+    border-radius: 25px;
+}
+
+.pn2Img2 {
+    left: 555px;
+}
+
+.pn2Img3 {
+    left: 1000px;
+}
+
+.pn2Img4 {
+    left: 1435px;
+}
+
+.pn2Text1,
+.pn2Text2,
+.pn2Text3,
+.pn2Text4 {
+    position: absolute;
+    left: 11vw;
+    top: 54.5vh;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1B1D21;
+}
+
+.pn2Text2 {
+    left: 34.5vw;
+}
+
+.pn2Text3 {
+    left: 58vw;
+}
+
+.pn2Text4 {
+    left: 80vw;
+}
+
+/*PAINEL 2 TAMANHOS*/
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .painel2 {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .barraSuperior {
+        position: absolute;
+        width: 200px;
+        height: 10px;
+        left: 63.5%;
+        top: -30px;
+        background: #F05024;
+        border-radius: 50px;
+    }
+    
+    .text2 {
+        position: absolute;
+        left: 25%;
+        top: 5px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #1B1D21;
+    }
+    
+    .pn2Img1,
+    .pn2Img2,
+    .pn2Img3,
+    .pn2Img4 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 275px;
+        height: 275px;
+        left: 5%;
+        top: 100px;
+        background: url(images/Jogando-Videoame.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border: 3px solid #000000;
+        border-radius: 25px;
+    }
+    
+    .pn2Img2 {
+        left: 28%;
+    }
+    
+    .pn2Img3 {
+        left: 52%;
+    }
+    
+    .pn2Img4 {
+        left: 75%;
+    }
+
+}
+
+@media (min-width: 1367px) {
+    .painel2 {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .barraSuperior {
+        position: absolute;
+        width: 200px;
+        height: 10px;
+        left: 57vw;
+        top: 1vh;
+        background: #F05024;
+        border-radius: 50px;
+    }
+    
+    .text2 {
+        position: absolute;
+        left: 30vw;
+        top: 5vh;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        color: #1B1D21;
+    }
+    
+    .pn2Img1,
+    .pn2Img2,
+    .pn2Img3,
+    .pn2Img4 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 100px;
+        top: 150px;
+        background: url(images/pn2Img1.webp);
+        background-size: 150%;
+        background-position-x: -76px;
+        background-repeat: no-repeat;
+        border: 3px solid #000000;
+        border-radius: 25px;
+    }
+    
+    .pn2Img2 {
+        background: url(images/pn2Img2.jpg);
+        background-size: 180%;
+        background-position-x: -75px;
+        left: 555px;
+    }
+    
+    .pn2Img3 {
+        background: url(images/pn2Img3.jpeg);
+        background-size: 190%;
+        background-position-x: -144px;
+        left: 1000px;
+    }
+    
+    .pn2Img4 {
+        background: url(images/pn2Img4.png);
+        background-size: 180%;
+        background-position-x: -75px;
+        left: 1435px;
+    }
+}
+
+/*----------------------------------------------------*/
+/*PAINEL 3*/
+
+.painel3 {
+    height: 50vh;
+    background-color: #F36422;
+    margin-top: 65vh;
+}
+
+.text3 {
+    position: absolute;
+    left: 35%;
+    top: 201.5vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #1B1D21;
+}
+
+.barraSuperior2 {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    left: 56.5vw;
+    top: 198vh;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+.caixa,
+.caixa2,
+.caixa3,
+.caixa4{
+    position: absolute;
+    width: 17vw;
+    height: 20vh;
+    left: 10vw;
+    top: 213vh;
+    background: #F8F8F8;
+    border-radius: 25px;
+}
+
+.caixa2 {
+    left: 31vw;
+}
+
+.caixa3 {
+    left: 51.5vw;
+}
+
+.caixa4 {
+    left: 72vw;
+}
+
+.caixa h1,
+.caixa2 h1,
+.caixa3 h1,
+.caixa4 h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1B1D21;
+}
+
+.caixa p,
+.caixa2 p,
+.caixa3 p,
+.caixa4 p {
+    padding: 0px 20px 0px 20px;
+    margin-top: 1.5vh;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #1B1D21;
+}
+
+.seta,
+.seta2,
+.seta3 {
+    position: absolute;
+    width: 1.5vw;
+    left: 56.5vh;
+    top: 111.5vw;
+}
+
+.seta2 {
+    left: 97vh;
+}
+
+.seta3 {
+    left: 138vh;
+}
+
+/*PAINEL 3 TAMANHOS*/
+
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 1024px) and (max-width: 1366px) {}
+@media (min-width: 1367px) {}
+
+/*----------------------------------------------------*/
+/*PAINEL 4*/
+
+.painel4 {
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+}
+
+.barraSuperior3 {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    left: 57vw;
+    top: 8vh;
+    background: #F05024;
+    border-radius: 50px;
+}
+
+.tituloPn4 {
+    position: absolute;
+    width: 70vh;
+    left: 33.3%;
+    top: 11.5vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 47px;
+    text-align: center;
+    color: #1B1D21;
+}
+
+.text4 {
+    position: absolute;
+    width: 482px;
+    height: 66px;
+    left: 719px;
+    top: 11vw;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #1B1D21;
+}
+
+.imgPn4 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 60vw;
+    height: 75vh;
+    left: 20%;
+    top: 18vw;
+    background: url(images/pn4.jfif);
+    background-size: 100%;
+    border: 5px solid #F05024;
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+    border-radius: 20px;
+}
+
+/*PAINEL 4 TAMANHOS*/
+
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 1024px) and (max-width: 1366px) {}
+@media (min-width: 1367px) {}
+
+/*----------------------------------------------------*/
+/*RODAPE*/
+
+.rodape {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    margin-top: 120vh;
+    background-color: #1B1D21;
+}
+
+.logoRodape {
+    position: absolute;
+    width: 11vw;
+    left: 5vw;
+    top: 4vh;
+}
+
+.TextRodape {
+    position: absolute;
+    left: 65vw;
+    top: 5vh;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*RODAPE TAMANHOS*/
+
+@media (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 1024px) and (max-width: 1366px) {}
+@media (min-width: 1367px) {}
+
+/*----------------------------------------------------*/

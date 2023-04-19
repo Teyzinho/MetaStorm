@@ -1,0 +1,165 @@
+body{
+    background-image: url(../imgs/Bgbranco.png);
+    font-family: 'Roboto' !important;
+}
+
+/* ************Resumo**************** */
+.resumo-box{
+    width: 450px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+}
+
+.resumo-box div span{
+    display: flex;
+    justify-content: space-between;
+    font-size: 21px;
+}
+
+.resumo-box div span p{
+    color: #504F4F;
+}
+
+.resumo-box div span h5{
+    font-weight: 600;
+}
+
+.comprar-btn{
+    position: relative;
+    width: 375px;
+    height: 75px;
+    background-color: #F05024;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+}
+
+.continuar-btn{
+    background-color: white;
+    color: black;
+    margin-top: 16px;
+    border: #F05024 solid 1px;
+}
+
+/* Tabela Carrinho */
+
+.carrinho-Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.carrinho-Box{
+    width: 1200px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 580px;
+}
+
+.carrinho-Box .header{
+    height: 80px;
+    font-size: 32px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.carrinho-Box .header h1{
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.carrinho-Box .body{
+    min-height: 500px;
+    padding-left: 15px;
+
+}
+
+.carrinho-Box .body .titulo img{
+   max-width: 175px;
+   max-height: 120px;
+}
+
+
+
+.carrinho-Box .body .titulo{
+    display: flex;
+ }
+
+.carrinho-Box .body table{
+    width: 100%;
+}
+
+.carrinho-Box .body table tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #8A8989;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.carrinho-Box .body table .titulo{
+    display: flex;
+    align-items: center;
+
+}
+
+.carrinho-Box .body table .qtde{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 24px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    width: 130px;
+}
+
+.carrinho-Box .body table .qtde-td{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.carrinho-Box .body table .qtde label{
+    color: #F05024;
+    font-size: 32px;
+}
+
+.carrinho-Box .body .preco{
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrinho-Box .body .preco img{
+    width: 20px;
+    height: 20px;
+}
+
+.remover-btn button{
+    display: flex;
+    gap: 2px;
+    background: none;
+    border: none;
+    color: #CF0210;
+}

@@ -1,0 +1,149 @@
+body{
+    background-image: url(../imgs/Bgbranco.png);
+    font-family: 'Roboto' !important;
+}
+
+/* ****** Banner ***** */
+
+.banner_jogo_atual{
+    width:100vw;
+	height:23.958vw;
+	background-image:url(../imgs/BannerLol.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    background-position: center;
+}
+
+.logo_jogo img{
+    position: absolute;
+    width: 10.417vw;
+    left: 96px;
+    top: 50px;
+}
+
+.anunciosBox{
+    width: 100%;
+    display: flex;
+    padding-top: 13.021vw;
+    justify-content: flex-end;
+    padding-right: 50px;
+    gap: 15px;
+}
+
+.anuncio_container{
+    width: 18.229vw;
+    height: 9.115vw;
+    opacity: 0.95;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.anuncio_container img{
+    position: absolute;
+    width: 18.229vw;
+    height: 9.115vw;
+    opacity: 0.95;
+}
+
+
+/* Torneio Em destaque especificações */
+
+.torneiosBox{
+    border-top-left-radius: 0px;
+}
+
+/* Pesquisa de Torneios */
+
+.todosTorneiosContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todosTorneiosBox{
+    margin-top: 50px;
+    background-color: white;
+    width: 72.917vw;
+    min-height: 5.208vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 8px 1px;
+    border-radius: 15px;
+}
+
+.todosTorneiosBox .header{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    align-items: center;
+    height: 5.208vw;
+}
+
+.todosTorneiosBox .header h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.todosTorneiosBox .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.todosTorneiosBox .content .torneioShow{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:5.208vw;
+    border-bottom: 1px solid black;
+}
+
+.todosTorneiosBox .content .torneioShow img{
+    width: 3.906vw;
+    height: 3.906vw;
+    margin-left: 25px;
+}
+
+.todosTorneiosBox .content .torneioShow .info{
+    padding-left: 2.604vw;
+    padding-right: 2.604vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todosTorneiosBox .content .torneioShow .firstInfo{
+    align-items: flex-start;
+}
+
+.todosTorneiosBox .content .torneioShow .info img{
+    width:1.302vw;
+	height:1.302vw;
+}
+
+.todosTorneiosBox .content .torneioShow .info h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto';
+}
+
+.todosTorneiosBox .content .torneioShow .info span{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.todosTorneiosBox .content .torneioShow .info span img{
+    margin: 0;
+    margin-right: 15px;
+}
+
+.bgGrey{
+    background-color: #F0F0F0;
+}
+
+.bgOrange{
+    background-color: #F36422;
+    color: white;
+}

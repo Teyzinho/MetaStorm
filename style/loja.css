@@ -1,0 +1,246 @@
+body{
+    background-image: url(../imgs/Bgbranco.png);
+    font-family: 'Roboto' !important;
+}
+
+/* Banners */
+
+.bannerLoja .carousel-inner{
+    height: 26.042vw;
+}
+
+.bannerLoja .carousel-inner img{
+    max-height: 26.042vw;
+    object-fit: cover;
+}
+
+.bannerLoja-btn{
+    display: flex;
+    align-items: normal;
+    justify-content: flex-start;
+    top: 27.344vw;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.bannerLoja-btn .slide-btn{
+    background-position: center;
+    background-size: 18.229vw;
+    padding: 0;
+    margin: 0;
+    width: 18.229vw;
+    height: 9.115vw;
+    margin-left: 2.344vw;
+}
+
+
+.slide-btn-1{
+    background-image: url(../imgs/ValorantWallpaper.webp);
+}
+
+.slide-btn-2{
+    background-image: url(../imgs/lolbanner.webp);
+}
+
+.slide-btn-3{
+    background-image: url(../imgs/roblox.png);
+}
+
+.slide-btn-4{
+    background-image: url(../imgs/csgo.webp);
+}
+
+.slide-btn-5{
+    background-image: url(../imgs/steamCard.webp);
+}
+
+/* ========== */
+
+.containers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 3.646vw;
+    width: 72.917vw;
+    min-height: 22.135vw;
+    background-color: #FFFFFF;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    font-size: 1.667vw;
+    font-weight: 700;
+    padding: 1.354vw 0 0 1.094vw
+}
+
+.content{
+    display: flex;
+    padding: 1.354vw 0 0 1.094vw
+}
+
+.metacoin-giftCard{
+    width: 19.531vw;
+    height: 15.104vw;
+    padding: 0.625vw;
+    background-color: #FAFAFA;
+    margin-right: 1.823vw;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+
+
+.metacoin-giftCard img{
+    border-radius: 5px;
+    width: 18.229vw;
+    height: 9.115vw;
+}
+
+.metacoin-giftCard h3{
+    font-size: 0.938vw;
+    font-weight: 600; 
+    padding-top: 0.781vw;
+}
+
+.metacoin-giftCard p{
+    font-size: 0.938vw;
+    font-weight: 400;
+}
+
+/* ========== */
+
+.destaque-box{
+    display: flex;
+    background: none;
+    box-shadow: none;
+}
+
+.destaque-box .destaque-content{
+    height: fit-content;
+    width: 35.938vw;
+    background-color: #FFFFFF;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.destaque-box img{
+    width: 35.938vw;
+    height: 20.833vw;
+    object-fit: cover;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.destaque-box .destaque-content:hover img{
+    transform: scale(1.02);
+}
+
+.destaques-desc{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.938vw;
+    padding: 0.781vw;
+}
+
+.destaques-desc h3{
+    font-size: 1.458vw;
+}
+
+/* TOods Produtos */
+
+.todosProd-box{
+    display: flex;
+    background: none;
+    box-shadow: none;
+}
+
+.todosProd-content{
+    width: 35.938vw;
+    height: 36.458vw;
+    background-color: #FFFFFF;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.todosProd-content .produtos{
+    display: flex;
+    padding-left: 0.521vw;
+    border-bottom: 1px solid #A8A7A7;
+    cursor: pointer;
+}
+
+.todosProd-content .produtos img{
+    width: 3.125vw;
+    padding-top: 0.521vw;
+    padding-bottom: 0.521vw;
+}
+
+.todosProd-content .produtos .desc{
+    padding-left: 0.521vw;
+    padding-top: 0.521vw;
+    padding-bottom: 0.521vw;
+}
+
+.todosProd-content .produtos .desc h3{
+    font-size: 0.833vw;
+    font-weight: 600;
+}
+
+.bg-grey{
+    background-color: #f2f2f2;
+}
+
+/* Todos Produtos */
+
+.VariProd{
+    display: flex;
+    justify-content: center;
+    gap: 1.979vw;
+    margin-bottom: 2.604vw;
+}
+
+.VariProd .produto{
+    width: 19.531vw;
+    height: 15.625vw;
+    background: #FAFAFA;
+    border-radius: 5px;
+    box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    overflow: hidden;
+}
+
+.VariProd .produto img{
+    width: 19.531vw;
+    height: 11.458vw;
+    object-fit: cover;
+    transition: all 0.2s;
+}
+
+.VariProd .produto img:hover{
+    transform: scale(1.02);
+    
+}
+
+.VariProd .produto h3{
+    font-size: 0.938vw;
+    padding-left: 0.833vw;
+    padding-top: 0.833vw;
+    font-weight: 700;
+}
+
+.VariProd .produto span{
+    font-size: 0.938vw;
+    padding-left: 0.833vw;
+}
+
+.coinn{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1vw !important;
+    height: 1vw !important;
+}

@@ -1,0 +1,333 @@
+body{
+    background-image: url(/imgs/Bgbranco.png);
+    font-family: 'Roboto' !important;
+}
+
+.banner{
+    width: 100%;
+    height: 26.042vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.banner img{
+    width: 100%;
+    height: 26.042vw;
+    object-fit: cover;
+    position: absolute;
+}
+
+.criarCla-btn{
+    position: relative;
+    width: 14.323vw;
+    height: 3.385vw;
+    background-color: #F05024;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+
+    margin-right: 4.167vw;
+    margin-bottom: 2.604vw;
+}
+
+/* *********************** Clans ******************* */
+.Containers{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 2.604vw;
+    background-color: white;
+    width: 72.917vw;
+    min-height: 52.083vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 8px 1px;
+    border-radius: 15px;
+}
+
+.box .header{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid black;
+    align-items: center;
+    height: 5.208vw;
+}
+
+.box .header h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 0.781vw;
+}
+
+.box .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box .content .clan{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:4.688vw;
+    border-bottom: 1px solid black;
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.box .content .clan img{
+    width: 3.906vw;
+    height: 3.906vw;
+}
+
+.clan .posicao{
+    font-size: 22px;
+    width: 4.271vw;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.bgGrey{
+    background-color: #F0F0F0;
+}
+
+.bgOrange{
+    background-color: #F36422;
+    color: white;
+}
+
+.entrarCla-btn{
+    position: relative;
+    width: 13.021vw;
+    height: 2.604vw;
+    background-color: #F05024;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: Condensed;
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+
+    margin-right: 2.604vw;
+    margin-left: 2.604vw;
+}
+
+/* *********************Modal criar cla*********************** */
+
+.modal-dialog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    max-width: 62.500vw !important;
+}
+
+.modal-criarCla{
+    width: 62.500vw;
+    height: 33.854vw;
+    border-radius: 5px !important;
+}
+
+.modal-criarCla .modal-header{
+    background-color: #1B1D21;
+    color: white;
+    height: 2.604vw;
+
+    border-radius: 0px !important;
+}
+.modal-criarCla .modal-header h1{
+    font-size: 24px;
+    margin: 0;
+    padding: 11px 0 11px 0;
+}
+
+.modal-criarCla .modal-body{
+    display: flex;
+}
+
+.modal-criarCla .modal-body .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 15.625vw;
+    font-size: 20px;
+}
+
+.modal-criarCla .modal-body form{
+    display: flex;
+    flex-direction: column;
+    width: 46.875vw;
+    font-size: 24px;
+    font-weight: 600;
+
+    gap: 0.625vw;
+}
+
+.modal-criarCla .modal-body form input{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.modal-criarCla .nome-cla{
+    width: 26.042vw;
+}
+
+.modal-criarCla .entrada-membros{
+    margin-left: 3.646vw;
+}
+
+.modal-criarCla .entrada-membros select{
+    width: 14.896vw;
+    background-color: #f2f2f2;
+}
+
+.modal-criarCla .descricao input{
+    width: 44.271vw;
+    height: 3.854vw;
+}
+
+.modal-criarCla input[type="file"]{
+    display: none;
+}
+
+.modal-criarCla .icone label{
+    width: 5.208vw;
+    height: 5.208vw;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-criarCla .cla-banner{
+    margin-left: 2.292vw;
+}
+
+.modal-criarCla .cla-banner label{
+    width: 36.458vw;
+    height: 7.813vw;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-criarCla .btn-close{
+    color: white;
+}
+
+.modal-criarCla .input-display{
+    display: flex;
+}
+
+.modal-criarCla span{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-criarCla .entrarBtn{
+    position: relative;
+    width: 13.021vw;
+    height: 2.604vw;
+    background-color: #F05024;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: Condensed;
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+}
+/* ***************** Modal ENtrar Cla ********************** */
+
+.modal-entrarCla .modal-header{
+    padding: 0;
+    margin: 0;
+    width: 62.500vw;
+    height: 13.542vw;
+
+    color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.modal-entrarCla .modal-header .banner{
+    object-fit: cover;
+    position: absolute;
+    width: 62.500vw;
+    height: 13.542vw;
+}
+
+.modal-entrarCla .cla-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 1.563vw;
+    padding-top: 1.458vw;
+
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.modal-entrarCla .cla-info div span{
+    padding-left: 14px;
+}
+
+.modal-entrarCla .cla-info span{
+    padding-top: 10px;
+}
+
+.modal-entrarCla .cla-info img{
+    width: 5.208vw;
+    height: 5.208vw;
+
+    border-radius: 5px;
+}
+
+.modal-entrarCla .desc{
+    width: 57.292vw;
+    height: 10.417vw;
+    background-color: #F9F9F9;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 8px 1px;
+}
+
+.modal-entrarCla .desc p{
+    padding-left: 1.354vw;
+    padding-top: 1.094vw;
+    padding-right: 3.906vw;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+}
+
+.modal-entrarCla .entrarBtn{
+    position: relative;
+    width: 13.021vw;
+    height: 2.604vw;
+    background-color: #F05024;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: Condensed;
+    font-weight: 600;
+    font-family: 'Roboto Condensed';
+}

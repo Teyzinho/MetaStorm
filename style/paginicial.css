@@ -1,0 +1,192 @@
+body{
+    background-image: url(../imgs/Bgbranco.png);
+    font-family: 'Roboto' !important;
+}
+
+/* **********Carrocel ******** */
+
+.noticiasCarrousel{
+    height:44.970729111229375vw;
+    overflow: hidden;
+    
+}
+
+.carousel-indicators{
+    margin-bottom: 4rem !important; 
+}
+
+.noticiasCarrousel img{
+    min-height: 44.970729111229375vw;
+}
+
+.noticiasDesc{
+    color: white;
+    position:absolute;
+    top:400px;
+    left:10%;
+}
+
+.noticiasDesc h1{
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 31.93vw;
+}
+
+.noticiasDesc p{
+    font-size: 1;
+    font-weight: 500rem;
+    max-width: 31.93vw;
+}
+
+.noticiasDesc a{
+    text-decoration: none;
+}
+
+.noticiasDesc a div{
+    display: flex;
+    background-color: #F05024;
+    width: 17.56vw;
+    height: 2.660989888238425vw;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    font-size: 1.375rem;
+    padding-left: 15px;
+}
+
+/* *****Container Jogos***** */
+
+.gamesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -55px;
+    z-index: 1;
+}
+
+.gamesBox{
+    border-radius: 15px;
+    width:74.50771687067589vw;
+	height:29.270888770622673vw;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.gamesBox h1{
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding: 25px 0 25px 15px;
+}
+
+.gamesBoxGrid{
+    width: 100%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+
+    padding: 20px 15px 50px 25px;
+}
+
+.gameContent{
+    width:17.562533262373602vw;
+    height: 10.6439595529537vw;
+    background-color: #080D16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.gameContent img{
+    width: 15.965939329430547vw;
+    transition-duration: 0.6s;
+    transition-delay: 0.1s ;
+}
+
+.gameContent:hover .gameContentImg{
+    width: 16.498137307078235vw;
+}
+
+
+/* ***BANNER ANUNCIO ***** */
+
+.anuncioBanner{
+    border-radius: 10px;
+    background-position: center;
+    margin-top: 50px;
+    width:74.50771687067589vw;
+	height:30.973922299095264vw;
+    background-image: url(../imgs/BannerAnuncio.png);
+    background-repeat:no-repeat;
+	background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.anuncioBanner h1{
+    color: #F05024;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.anuncioBanner h2{
+    margin-top: 5px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 42px;
+
+}
+
+.anuncioBanner h3{
+    margin-top: 5px;
+    width: 22.51197445449707vw;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.verMais{
+    width: 17vw;
+    height: 3vw;
+    margin-top: 100px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.3s;
+}
+
+.verMais a{
+    text-decoration: none;
+    color: black;
+}
+
+.anuncioBanner:hover .verMais{
+    background: #F36422;
+    color: white;
+}
+
+.anuncioBanner:hover .verMais a{ 
+    color: white;
+}
+
+
+

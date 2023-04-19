@@ -1,0 +1,165 @@
+/* Container torneios em destaque */
+
+.toneiosContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.torneiosBox{
+    border-radius: 15px;
+    width:74.50771687067589vw;
+	height:fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.torneiosBox h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 25px 0 25px 15px;
+}
+
+.cardBox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.torneiosBox:last-child{
+    align-items: flex-end;
+}
+
+.torneiosSlider{
+    width: 100%;
+    height: 6.324972737186478vw;
+    background-color: #F3F3F3;
+    margin-top: 50px;
+}
+
+/* ******Card Torneio**** */
+.cardTorneio{
+    width: 17.29643427354976vw;
+    height: 26.609898882384247vw;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cardTorneio img{
+    max-width: 27.14209686003193vw;
+    height: 10.6439595529537vw;
+}
+
+.cardTorneio h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cardTorneio p{
+    margin: 0;
+    font-size: 12px;
+}
+
+.categorias{
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.categorias span{
+    background-color: #F05024;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    min-width: 10px;
+    padding: 10px;
+    height: 2.1810250817884405vw;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.vagas{
+    display: flex;
+}
+
+.range{
+    background-color:rgba(83.56120213866234, 155.82492649555206, 160.43749898672104, 1);
+	width:9.845662586482172vw;
+	height:6.5px;
+}
+
+.verDetalhesContainer{
+    display: flex;
+    align-items: flex-end;
+    height: 8.724100327153762vw;
+}
+
+.verDetalhes{
+    color: #F05024;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    height: 8.178844056706652vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+    /* border-top: black solid 1px; */
+
+    transition-duration: 0.4s;
+}
+
+.cardTorneio:hover{
+    cursor:pointer;
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.cardTorneio:hover .verDetalhes{
+    background-color: #F05024;
+    color: white;
+}
+
+
+/* Radio buttons Card Torneio */
+
+.torneio_radio{
+    display: flex;
+    width: 74.50771687067589vw;
+    gap: 1px;
+
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.radioBtnAct{
+    width: 10.417vw;
+    height: 5.208vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F05024;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: white;
+}
+
+.radioBtn{
+    width: 10.417vw;
+    height: 5.208vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F3F3F3;
+}
